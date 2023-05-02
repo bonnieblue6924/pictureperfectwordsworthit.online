@@ -1,0 +1,6 @@
+{
+	"scm.inputFontSize": 20,
+	"testing.alwaysRevealTestOnStateChange": true,
+	"workbench.settings.editor": "json",
+	"workbench.settings.useSplitJSON": true
+}
