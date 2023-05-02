@@ -6,7 +6,9 @@ npm{
     "configurations": [
         codespaces
         file
-        {
+        {-X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
+        -H "Authorization: Bearer 5xQ-Fv0WjS6hvQeKyyMzyzKprZl3QMsZmAd3IL2H" \
+        -H "Content-Type:application/json"
             "type": "msedge",
             "request": "launch",
             "name": "Open <!DOCTYPE html>.html",
